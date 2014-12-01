@@ -44,7 +44,8 @@ module CurlBuilder
     "pop3"   => false,
     "imap"   => false,
     "smtp"   => false,
-    "gopher" => false
+    "gopher" => false,
+    "threaded-resolver" => true
   }
 
   DEFAULT_FLAGS = {
